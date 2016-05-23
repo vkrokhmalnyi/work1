@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
+       <head>
         <title> Work3 table </title>
         <meta charset="utf-8">
     </head>
         <body>
-                <table border="5">
+             <table border="5">
                     <tr>
-                        <th>header1 </th>
-                        <th>heder2</th>
-                        <th>header3</th>
+                        <th colspan="2">Contact</th>
                     </tr>
                     <tr>
-                        <td> one </td>
-                        <td> two </td>
-                        <td> three </td>
+                        <th> life </th>
+                        <th> Vodafone </th>
                     </tr>
                     <tr>
-                        <td> one </td>
-                        <td> two </td>
-                        <td> three </td>
-                    </tr>
-                </table>
+                        <td> (063) 394 11 89 </td>
+                        <td> (066) 650 29 39 </td>
+                    </tr> 
+            </table> <br>
+                    
+                    
+              <form method="GET" action="url">
+                <label>
+                Name:
+                    <input required type="text" name="surname"/>
+                </label>
+            <br>
+                <label for="email">Email:</label>
+                    <input required type="email" name="email" id="email"/>
+            <br>
+                <label for="text">Phone:</label>
+                    <input id="Text" type="text" required pattern="[A-Z]{2}[0-9]{6}">
+                    <input type="submit" value="send">
+            </form>
+            <p>Different years:</p>
+        <ul>
+            <li>1. One</li>
+            <li>2. Two</li>
+            <li>3. Three</li>
+        </ul>
+        <p>Different years:</p>
+        	<ul type="square">
+        	 <li>2010</li>
+             <li>2020</li>
+             <li>2030</li> </ul><br>
         </body>
+            
 </html>
